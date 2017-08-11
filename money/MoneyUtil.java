@@ -179,7 +179,7 @@ public class MoneyUtil {
 		}
 		return money.replace("元", "").trim()+endString;
 	}
-	
+	//方法是整数部分每一位数都是有着固定单位的
 	public static String NumtoStr(String money){
 		if(Objects.equals("", money)){
 			return "";
