@@ -63,7 +63,7 @@ public class MoneyUtil {
 			money=money.replace("一", "壹").replace("二", "贰")
 					.replace("三", "叁").replace("四", "肆")
 					.replace("五", "伍").replace("六", "陆")
-					.replace("七", "柒").replace("八", "捌")				//把简体换成繁体
+					.replace("七", "柒").replace("八", "捌")				//把简体换成繁体中文
 					.replace("九", "玖").replace("十", "拾")
 					.replace("百", "佰").replace("千", "仟")
 					.replace("万", "萬").replace("亿", "億")
